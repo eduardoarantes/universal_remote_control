@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="universal_remote_control"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/include"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/tool-unity"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/include"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/tool-unity"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-native/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/src/IUniversalRemoteControl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/src/UniversalRemoteControl.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/test/UniversalRemoteControlTest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

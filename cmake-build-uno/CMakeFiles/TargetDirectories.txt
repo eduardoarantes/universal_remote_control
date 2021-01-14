@@ -1,0 +1,5 @@
+/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/CMakeFiles/rebuild_cache.dir
+/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/CMakeFiles/edit_cache.dir
+/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/CMakeFiles/Z_DUMMY_TARGET.dir
+/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/CMakeFiles/Debug.dir
+/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/CMakeFiles/Production.dir

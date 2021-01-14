@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="universal_remote_control"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/include"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/variants/standard"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Users/eduardo/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Users/eduardo/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/Users/eduardo/.platformio/packages/tool-unity"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/include"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/variants/standard"/>
+					<Add directory="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="/Users/eduardo/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Users/eduardo/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Users/eduardo/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/Users/eduardo/.platformio/packages/tool-unity"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/.github/workflows/aunit_tests.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/CHANGELOG.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/AUnitPlatformIO/AUnitPlatformIO.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/AUnitPlatformIO/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/AUnitPlatformIO/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/AUnitPlatformIO/src/AUnitPlatformIO.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/advanced/advanced.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/basic/basic.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/basic_verbose/basic_verbose.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/continuous/continuous.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/filter/filter.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/fixture/fixture.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/examples/meta_asserts/meta_asserts.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/AUnit.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/AUnitVerbose.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/AssertMacros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/AssertVerboseMacros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Assertion.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Assertion.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Compare.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Compare.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/FCString.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/FCString.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Flash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/MetaAssertMacros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/MetaAssertion.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/MetaAssertion.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Printer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Printer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Test.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Test.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/TestAgain.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/TestAgain.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/TestMacros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/TestOnce.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/TestOnce.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/TestRunner.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/TestRunner.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/Verbosity.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/contrib/gtest.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/fake/FakePrint.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/fake/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/print64.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/print64.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/string_util.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/AUnit/src/aunit/string_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/.github/issue_template.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/.github/workflows/LibraryBuild.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/Contributing.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/Contributors.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/changelog.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/AiwaRCT501SendDemo/AiwaRCT501SendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/BoseWaveSendDemo/BoseWaveSendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRrecord/IRrecord.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRrecvDemo/IRrecvDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRrecvDump/IRrecvDump.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRrecvDumpV2/IRrecvDumpV2.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRrelay/IRrelay.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRremoteInfo/IRremoteInfo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRsendDemo/IRsendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRsendProntoDemo/IRsendProntoDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRsendRawDemo/IRsendRawDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRtest/IRtest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/IRtest2/IRtest2.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/JVCPanasonicSendDemo/JVCPanasonicSendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/LGACSendDemo/LGACSendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/LGACSendDemo/LGACSendDemo.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/LegoPowerFunctionsSendDemo/LegoPowerFunctionsSendDemo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/LegoPowerFunctionsTests/LegoPowerFunctionsTests.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/examples/MicroGirs/MicroGirs.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/readmdFrench.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/IRremote.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/IRremote.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/esp32.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/irPronto.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/irRecv.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/irSend.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Aiwa.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_BoseWave.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Denon.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Dish.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_JVC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_LG.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Lego_PF.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Lego_PF_BitStreamEncoder.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_MagiQuest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Mitsubishi.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_NEC.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Panasonic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_RC5_RC6.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Samsung.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Sanyo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Sharp.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Sharp_alt.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Sony.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Template.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/ir_Whynter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/private/IRremoteBoardDefs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/private/IRremoteInt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IRremote/src/sam.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/.gitattributes">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/AUTHORS.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/LICENSE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/NOTICE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/examples/BasicUsage/BasicUsage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/examples/CppWrapper/CppWrapperExample.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/examples/FileBasedUsage/FileBasedUsage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/examples/StringUsage/StringUsage.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/examples/UserDefinedTypes/UserDefinedTypes.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/examples/master_table_example.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/IonDB.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/BppTree.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/Cursor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/Dictionary.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/FlatFile.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/LinearHash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/MasterTable.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/OpenAddressFileHash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/OpenAddressHash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/cpp_wrapper/SkipList.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/bpp_tree/bpp_tree.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/bpp_tree/bpp_tree.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/bpp_tree/bpp_tree_handler.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/bpp_tree/bpp_tree_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/dictionary.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/dictionary.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/dictionary_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/flat_file/flat_file.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/flat_file/flat_file.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/flat_file/flat_file_dictionary_handler.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/flat_file/flat_file_dictionary_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/flat_file/flat_file_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/ion_master_table.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/ion_master_table.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/linear_hash/linear_hash.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/linear_hash/linear_hash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/linear_hash/linear_hash_handler.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/linear_hash/linear_hash_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/linear_hash/linear_hash_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_file_hash/open_address_file_hash.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_file_hash/open_address_file_hash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_file_hash/open_address_file_hash_dictionary.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_file_hash/open_address_file_hash_dictionary_handler.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_file_hash/open_address_file_hash_dictionary_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_hash/open_address_hash.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_hash/open_address_hash.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_hash/open_address_hash_dictionary.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_hash/open_address_hash_dictionary_handler.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/open_address_hash/open_address_hash_dictionary_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/skip_list/skip_list.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/skip_list/skip_list.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/skip_list/skip_list_handler.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/skip_list/skip_list_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/dictionary/skip_list/skip_list_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/file/ion_file.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/file/ion_file.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/file/kv_stdio_intercept.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/file/linked_file_bag.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/file/linked_file_bag.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/file/sd_stdio_c_iface.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/file/sd_stdio_c_iface.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/iinq/iinq.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/iinq/iinq.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/key_value/kv_system.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/serial/printf_redirect.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/serial/serial_c_iface.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/IonDB/src/serial/serial_c_iface.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/File.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/README.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/SD.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/SD.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/examples/CardInfo/CardInfo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/examples/Datalogger/Datalogger.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/examples/DumpFile/DumpFile.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/examples/Files/Files.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/examples/ReadWrite/ReadWrite.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/examples/listfiles/listfiles.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/FatStructs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/Sd2Card.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/Sd2Card.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/Sd2PinMap.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/SdFat.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/SdFatUtil.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/SdFatmainpage.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/SdFile.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/SdInfo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/.pio/libdeps/uno/SD/utility/SdVolume.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/src/IUniversalRemoteControl.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/src/UniversalRemoteControl.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/lib/UniversalRemoteControl/test/UniversalRemoteControlTest.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/eduardo/Documents/arduino/Projetos/remote_control/universal_remote_control/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
